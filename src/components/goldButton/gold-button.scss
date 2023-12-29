@@ -1,0 +1,16 @@
+.gold-button {
+	border-radius: var(--px-10);
+	border: var(--px-1-8) solid var(--orange--border--100);
+	font-size: var(--px-18);
+}
+.bord-rad {
+	border-radius: var(--px-12-3);
+}
+.filled {
+	background: var(--gold--btn--100);
+	color: var(--black--base--100);
+}
+.not-filled {
+	background-color: inherit;
+	color: var(--orange--border--100);
+}

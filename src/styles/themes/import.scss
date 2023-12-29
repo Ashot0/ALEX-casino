@@ -1,0 +1,18 @@
+:root {
+	--black--base--100: #000;
+	--white--base--100: #fff;
+	--white--base--10: #ffffff1a;
+	--gold--btn--100: linear-gradient(
+		90deg,
+		#eebb52 14.03%,
+		#f2ed70 52.47%,
+		#eebb52 90.13%
+	);
+	--gold-block--100: linear-gradient(
+		180deg,
+		rgba(239, 189, 83, 0.31) -11.48%,
+		rgba(239, 189, 83, 0.09) 81.21%,
+		rgba(14, 11, 5, 0.01) 173.89%
+	);
+	--orange--border--100: #f0ac52;
+}

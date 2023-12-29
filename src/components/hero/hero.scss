@@ -1,0 +1,36 @@
+.hero {
+	position: relative;
+	height: var(--px-1080);
+	width: var(--prc-100);
+	background: right var(--prc-0) / 100vw content-box no-repeat
+		url('./right-bg.png');
+	&__header {
+		padding: var(--px-53) var(--px-159) var(--num-0) var(--num-0);
+	}
+	&__block {
+		position: absolute;
+		top: 0;
+		margin: var(--px-357) var(--num-0) var(--num-0) var(--px-160);
+		color: var(--white--base--100);
+	}
+	&__title {
+		font-size: var(--px-70);
+		font-weight: 600;
+		margin-bottom: var(--px-20);
+	}
+	&__text {
+		font-size: var(--px-32);
+		font-weight: 500;
+		margin-bottom: var(--px-83);
+	}
+	&__button {
+		padding: var(--px-29) var(--px-101);
+		text-transform: uppercase;
+		font-size: var(--px-20);
+		font-weight: 700;
+	}
+}
+
+.gold-color {
+	color: var(--orange--border--100);
+}

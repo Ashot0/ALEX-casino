@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	justify-content: end;
+	&__dropdown {
+		padding-right: var(--px-48);
+		border-right: var(--px-1-2) solid var(--white--base--100);
+	}
+	&__btn_1 {
+		font-weight: 500;
+		margin-left: var(--px-28);
+		width: var(--px-182);
+		height: var(--px-52);
+		flex-shrink: 0;
+	}
+	&__btn_2 {
+		font-weight: 500;
+		margin-left: var(--px-14);
+		width: var(--px-197);
+		height: var(--px-52);
+		flex-shrink: 0;
+	}
+}

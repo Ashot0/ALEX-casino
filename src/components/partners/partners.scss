@@ -1,0 +1,30 @@
+.partners {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: var(--px-1080);
+	width: var(--prc-100);
+	padding: 0 var(--px-160);
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: var(--px-76);
+	}
+	&__title {
+		color: var(--white--base--100);
+		font-size: var(--px-50);
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	&__blocks {
+		width: var(--prc-1600);
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--px-52);
+	}
+	&__block {
+		width: var(--px-182);
+		height: var(--px-102);
+	}
+}

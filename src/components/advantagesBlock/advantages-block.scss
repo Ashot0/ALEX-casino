@@ -1,0 +1,22 @@
+.advantages-block {
+	display: block;
+	border-radius: var(--px-20);
+	border: var(--px-1) solid var(--orange--border--100);
+	background: var(--gold-block--100);
+	width: var(--px-417);
+	height: var(--px-318);
+	padding: var(--px-36) var(--px-37) var(--px-76) var(--px-59);
+	&__image {
+		margin-bottom: var(--px-43);
+		width: var(--px-114);
+		height: var(--px-107);
+	}
+	&__text {
+		color: var(--white--base--100);
+		font-size: var(--px-26);
+		font-weight: 500;
+		line-height: var(--px-28);
+		letter-spacing: var(--px-0-78);
+		max-width: var(--px-417);
+	}
+}

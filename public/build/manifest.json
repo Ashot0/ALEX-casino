@@ -1,0 +1,32 @@
+{
+  "src/assets/Our-advantages/bg.png": {
+    "file": "assets/bg-kqGBYRKo.png",
+    "src": "src/assets/Our-advantages/bg.png"
+  },
+  "src/assets/Working-conditions/bg.png": {
+    "file": "assets/bg-tgIlg5za.png",
+    "src": "src/assets/Working-conditions/bg.png"
+  },
+  "src/assets/reviews/bg.png": {
+    "file": "assets/bg-f1rVHUZh.png",
+    "src": "src/assets/reviews/bg.png"
+  },
+  "src/index.jsx": {
+    "assets": [
+      "assets/bg-kqGBYRKo.png",
+      "assets/bg-tgIlg5za.png",
+      "assets/bg-f1rVHUZh.png"
+    ],
+    "css": [
+      "assets/index-HKutzbZn.css"
+    ],
+    "file": "assets/index-2yFMikzn.js",
+    "isEntry": true,
+    "src": "src/index.jsx"
+  },
+  "src/main.scss": {
+    "file": "assets/main-aFqw2k2K.css",
+    "isEntry": true,
+    "src": "src/main.scss"
+  }
+}

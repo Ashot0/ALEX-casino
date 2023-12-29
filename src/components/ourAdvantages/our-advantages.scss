@@ -1,0 +1,43 @@
+.our-advantages {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: var(--px-1080);
+	width: var(--prc-100);
+	background: right var(--prc-0) / var(--vw-100) content-box no-repeat
+		url(../../assets/Our-advantages/bg.png);
+	&__advantages-block {
+		margin: var(--px-66) var(--px-159) var(--px-66) var(--px-160);
+		z-index: 2;
+	}
+	&__title {
+		margin-bottom: var(--px-76);
+		margin-left: var(--px-42);
+		color: var(--white--base--100);
+		font-size: var(--px-50);
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	&__blocks {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: var(--px-36);
+	}
+	&__button {
+		padding: var(--px-29) var(--px-101);
+		text-transform: uppercase;
+		font-size: var(--px-20);
+		font-weight: 700;
+	}
+	&__card {
+		position: absolute;
+		z-index: 1;
+		left: var(--prc--37);
+		bottom: var(--prc--50);
+	}
+}

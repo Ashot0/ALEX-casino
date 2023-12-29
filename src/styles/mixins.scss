@@ -1,0 +1,4 @@
+// Sizing in em units
+@function rem($pixels) {
+	@return #{math.div($pixels, $base-font-size)}rem;
+}
