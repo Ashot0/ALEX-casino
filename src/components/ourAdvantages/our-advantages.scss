@@ -6,11 +6,10 @@
 	position: relative;
 	height: var(--px-1080);
 	width: var(--prc-100);
-	background: right var(--prc-0) / var(--vw-100) content-box no-repeat
-		url(../../assets/Our-advantages/bg.png);
 	&__advantages-block {
 		margin: var(--px-66) var(--px-159) var(--px-66) var(--px-160);
 		z-index: 2;
+		overflow: hidden;
 	}
 	&__title {
 		margin-bottom: var(--px-76);

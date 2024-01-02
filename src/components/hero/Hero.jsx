@@ -3,10 +3,16 @@ import React from 'react';
 import './hero.scss';
 import Header from '../header/Header';
 import GoldButton from '../goldButton/GoldButton';
+import BackgroundElement from '../backgroundElement/BackgroundElement';
 
 function Hero() {
 	return (
 		<div className="hero">
+			<BackgroundElement
+				image="1"
+				widthSize={'var(--prc-100)'}
+				heightSize={`var(--px-1080)`}
+			/>
 			<Header className="hero__header"></Header>
 			<div className="hero__block">
 				<h1 className="hero__title">

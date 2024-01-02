@@ -2,10 +2,17 @@ import React from 'react';
 
 import './working-conditions.scss';
 import WorkingConditionBlock from '../workingConditionBlock/WorkingConditionBlock';
+import BackgroundElement from '../backgroundElement/BackgroundElement';
 
 const WorkingConditions = () => {
 	return (
 		<div className="working-conditions">
+			<BackgroundElement
+				image="3"
+				widthSize={'var(--prc-100)'}
+				heightSize={`var(--px-1080)`}
+			/>
+
 			<div className="working-conditions__wrapper">
 				<h2 className="working-conditions__title">
 					Условия <span className="gold-color">работа СPA:</span>

@@ -3,10 +3,16 @@ import React from 'react';
 import './our-advantages.scss';
 import GoldButton from '../goldButton/GoldButton';
 import AdvantagesBlock from '../advantagesBlock/AdvantagesBlock';
+import BackgroundElement from '../backgroundElement/BackgroundElement';
 
 const OurAdvantages = () => {
 	return (
 		<div className="our-advantages">
+			<BackgroundElement
+				image="2"
+				widthSize={'var(--prc-100)'}
+				heightSize={`var(--px-1080)`}
+			/>
 			<div className="our-advantages__advantages-block">
 				<h2 className="our-advantages__title">
 					<span className="gold-color">Наши</span> преимущества

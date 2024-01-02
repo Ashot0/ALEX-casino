@@ -5,8 +5,6 @@
 	position: relative;
 	height: var(--px-1080);
 	width: var(--prc-100);
-	background: right var(--prc-0) / var(--vw-100) content-box no-repeat
-		url(./bg.png);
 	&__wrapper {
 		display: flex;
 		flex-direction: column;

@@ -18,10 +18,11 @@
 		text-transform: uppercase;
 	}
 	&__blocks {
-		width: var(--prc-1600);
+		width: var(--px-1600);
 		display: flex;
 		flex-wrap: wrap;
 		gap: var(--px-52);
+		overflow: hidden;
 	}
 	&__block {
 		width: var(--px-182);
