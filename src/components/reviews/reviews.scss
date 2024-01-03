@@ -1,7 +1,8 @@
 .reviews {
 	position: relative;
-	height: fit-content;
+	height: max-content;
 	width: var(--prc-100);
+	overflow: hidden;
 	&__wrapper {
 	}
 	&__title {
@@ -12,6 +13,7 @@
 		text-transform: uppercase;
 	}
 	&__block {
+		height: max-content;
 		position: relative;
 		display: flex;
 		justify-content: center;

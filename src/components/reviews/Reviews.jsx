@@ -2,6 +2,7 @@ import React from 'react';
 
 import './reviews.scss';
 import BackgroundElement from '../backgroundElement/BackgroundElement';
+import SwiperComponent from '../swiperComponent/SwiperComponent';
 
 const Reviews = () => {
 	return (
@@ -14,7 +15,7 @@ const Reviews = () => {
 			<div className="reviews__wrapper">
 				<h2 className="reviews__title">Отзывы</h2>
 				<div className="reviews__block">
-					<div className="reviews-placeholder"></div>
+					<SwiperComponent />
 				</div>
 			</div>
 		</div>
