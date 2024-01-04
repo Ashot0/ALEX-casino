@@ -2,8 +2,10 @@
 	position: relative;
 	height: max-content;
 	width: var(--prc-100);
+	max-width: 2000px;
 	overflow: hidden;
 	&__wrapper {
+		max-width: 2000px;
 	}
 	&__title {
 		margin: var(--px-66) 0 var(--px-76) var(--px-161);
@@ -18,10 +20,5 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-	&-placeholder {
-		width: 300px;
-		height: 400px;
-		background-color: aquamarine;
 	}
 }

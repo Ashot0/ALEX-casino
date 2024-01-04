@@ -4,6 +4,7 @@ import './hero.scss';
 import Header from '../header/Header';
 import GoldButton from '../goldButton/GoldButton';
 import BackgroundElement from '../backgroundElement/BackgroundElement';
+import CoinPage from '../coinPage/CoinPage';
 
 function Hero() {
 	return (
@@ -14,6 +15,7 @@ function Hero() {
 				heightSize={`var(--px-1080)`}
 			/>
 			<Header className="hero__header"></Header>
+			<CoinPage />
 			<div className="hero__block">
 				<h1 className="hero__title">
 					<p className="gold-color">Эксклюзивная</p> партнерская

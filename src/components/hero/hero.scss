@@ -2,10 +2,13 @@
 	position: relative;
 	height: var(--px-1080);
 	width: var(--prc-100);
+	max-width: 3000px;
 	&__header {
+		z-index: 2;
 		padding: var(--px-53) var(--px-159) var(--num-0) var(--num-0);
 	}
 	&__block {
+		z-index: 1;
 		position: absolute;
 		top: 0;
 		margin: var(--px-357) var(--num-0) var(--num-0) var(--px-160);
@@ -22,6 +25,7 @@
 		margin-bottom: var(--px-83);
 	}
 	&__button {
+		z-index: 2;
 		padding: var(--px-29) var(--px-101);
 		text-transform: uppercase;
 		font-size: var(--px-20);

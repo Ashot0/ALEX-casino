@@ -10,6 +10,7 @@
 		margin: var(--px-66) var(--px-159) var(--px-66) var(--px-160);
 		z-index: 2;
 		overflow: hidden;
+		max-width: 1200px;
 	}
 	&__title {
 		margin-bottom: var(--px-76);
