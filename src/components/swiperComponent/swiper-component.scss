@@ -18,6 +18,7 @@
 	padding: 10px;
 }
 .swiper-button-prev {
+	padding: 25px 55px 25px 15px;
 	left: 15%;
 	&::before {
 		content: '';
@@ -31,6 +32,7 @@
 	}
 }
 .swiper-button-next {
+	padding: 25px 15px 25px 55px;
 	right: 15%;
 	&::before {
 		content: '';
